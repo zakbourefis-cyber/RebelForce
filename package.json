@@ -1,0 +1,12 @@
+{
+  "name": "rebelforce-site",
+  "private": true,
+  "scripts": {
+    "preview": "npx serve . -l 3000",
+    "preview:framer": "node scripts/patch-framer-paths.mjs && node scripts/rebrand-netosia.mjs && npx serve . -l 3000",
+    "preview:archive": "npx serve _archive -l 3456",
+    "patch:framer": "node scripts/patch-framer-paths.mjs",
+    "rebrand": "node scripts/rebrand-netosia.mjs",
+    "build:site": "node scripts/patch-framer-paths.mjs && node scripts/rebrand-netosia.mjs"
+  }
+}
