@@ -1,0 +1,36 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 25 May 2026 10:46:46 at https://www.rebelforce.nl/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.rebelforce.nl/ -O1 "C:\My Web Sites\RebelForce" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:47:12	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/e (from https://www.rebelforce.nl/)
+10:47:12	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/o (from https://www.rebelforce.nl/)
+10:47:43	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/cdn-cgi/l/email-protection (from https://www.rebelforce.nl/)
+10:47:48	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/works/e (from https://www.rebelforce.nl/works/thriveos)
+10:47:48	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/works/o (from https://www.rebelforce.nl/works/thriveos)
+10:48:00	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/e (from https://www.rebelforce.nl/blog/how-to-operationalize-ai-real-business-impact)
+10:48:00	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/o (from https://www.rebelforce.nl/blog/how-to-operationalize-ai-real-business-impact)
+10:48:54	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/legal/e (from https://www.rebelforce.nl/legal/privacy-policy)
+10:48:54	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/legal/o (from https://www.rebelforce.nl/legal/privacy-policy)
+10:48:54	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/works/happybase.me (from https://www.rebelforce.nl/works/happybase)
+10:49:24	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/d84ad7" (from https://www.rebelforce.nl/blog/ai-integration-checklist-seamless-adoption)
+10:49:57	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/4832c2" (from https://www.rebelforce.nl/blog/ai-integration-readiness-checker)
+10:50:18	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/e41949" (from https://www.rebelforce.nl/blog/process-optimization-simulator-efficiency)
+10:50:32	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/852df9" (from https://www.rebelforce.nl/blog/operational-efficiency-planner-growth)
+10:50:34	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/1dfc5f" (from https://www.rebelforce.nl/blog/business-constraint-analyzer-progress)
+10:50:39	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/46894b" (from https://www.rebelforce.nl/blog/roi-calculator-smarter-business-decisions)
+10:50:39	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/7f7fec" (from https://www.rebelforce.nl/blog/operational-efficiency-calculator)
+10:50:42	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/1e59ee" (from https://www.rebelforce.nl/blog/business-process-mapping-tool)
+10:50:42	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/1379b4" (from https://www.rebelforce.nl/blog/business-efficiency-calculator)
+10:50:55	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/9a375d" (from https://www.rebelforce.nl/blog/workflow-optimization-planner)
+10:50:57	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/7c0818" (from https://www.rebelforce.nl/blog/ai-adoption-readiness-checker)
+10:51:07	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/1bfa95" (from https://www.rebelforce.nl/blog/data-driven-decision-maker-tool)
+10:51:07	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/d53d45" (from https://www.rebelforce.nl/blog/process-improvement-idea-generator)
+10:51:09	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/b820ff" (from https://www.rebelforce.nl/blog/digital-transformation-cost-estimator)
+10:51:09	Error: 	"Not Found" (404) at link https://www.rebelforce.nl/blog/"https://app.wrapifai.com/embed/05ab45" (from https://www.rebelforce.nl/blog/workflow-bottleneck-finder)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 23 seconds : 534 links scanned, 508 files written (76311121 bytes overall) [52832509 bytes received at 200884 bytes/sec], 36351417 bytes transferred using HTTP compression in 126 files, ratio 15%, 24.2 requests per connection
+(25 errors, 0 warnings, 0 messages)
