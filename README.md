@@ -1,48 +1,42 @@
-# Netosia — site web
+# Netosia — agence web
 
-Site statique basé sur un export Framer (archive rebelforce.nl), rebrandé pour **Netosia**, agence web française.
+Site vitrine en français (export Framer rebrandé).
 
-## Aperçu local
+## Aperçu
 
 ```bash
 npm run preview
 ```
 
-Ouvrir **http://localhost:3000/** — page d’accueil Framer complète (animations, sections, etc.).
-
-Connexion internet requise pour les scripts Framer (`framerusercontent.com`).
+→ [http://localhost:3000/](http://localhost:3000/) (nécessite internet pour les scripts Framer CDN)
 
 ## Structure
 
 ```
-├── index.html          # Accueil Framer (animations)
-├── about.html          # À propos
-├── services.html       # Services
-├── works.html          # Réalisations
-├── blog.html           # Blog
-├── contact.html        # Contact
-├── blog/               # Articles
+├── index.html          # Accueil (Framer + animations)
+├── about.html
+├── services.html
+├── works.html
+├── contact.html
+├── blog.html           # Page blog (stub FR)
 ├── works/              # Études de cas
-├── legal/              # Mentions légales
-├── css/                # Styles simplifiés (pages legacy si utilisées)
-├── assets/images/      # Favicons
-├── framer/             # Copie Framer patchée (générée)
-├── scripts/            # patch-framer-paths, rebrand-netosia
-└── _archive/           # Miroir HTTrack d’origine
+├── legal/
+├── assets/
+│   ├── images/         # Favicons
+│   ├── framer/images/  # Images du site
+│   └── site.css        # Styles pages simples
+└── scripts/build.mjs   # Maintenance (chemins + texte FR)
 ```
 
-## Mettre à jour le contenu Netosia
+## Maintenance
 
-1. Modifier les textes dans `scripts/rebrand-netosia.mjs` (tableau `REPLACEMENTS`).
-2. Régénérer tout le site :
+Après modification des textes dans `scripts/rebrand-lib.mjs` :
 
 ```bash
-npm run build:site
+npm run build
 ```
-
-Cela recopie `_archive` → `framer/`, applique les corrections d’assets, puis déploie + rebrand vers la racine.
 
 ## Notes
 
-- Les articles de blog conservent en grande partie le texte anglais d’origine ; seuls l’en-tête / pied de page Framer sont en français.
-- Pour un site 100 % sur mesure sans Framer, éditer `css/main.css` et les pages HTML simples — ou republier depuis Framer avec le vrai projet Netosia.
+- Les articles de blog anglais ont été supprimés ; seule `blog.html` (stub) reste.
+- L’archive HTTrack d’origine n’est plus incluse dans le dépôt.

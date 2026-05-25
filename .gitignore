@@ -1,5 +1,2 @@
-framer/
-_archive/hts-cache/
-cookies.txt
-hts-log.txt
+.DS_Store
 *.log
